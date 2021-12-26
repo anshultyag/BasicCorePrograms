@@ -1,7 +1,9 @@
 import java.util.Scanner;
 public class BasicCoreprograms {
+
     public static void main(String[] args) {
         // INITIALIZATION
+
 
         int n, h_cnt = 0, t_cnt = 0;
         double heads, tails;
@@ -21,8 +23,10 @@ public class BasicCoreprograms {
 
         heads = h_cnt / (double) a * 100;
         tails = t_cnt / (double) a * 100;
-        System.out.println("Percentage of heads: " + heads + "%");
-        System.out.println("Percentage of tails: " + tails + "%");
+            System.out.println("Percentage of heads: " + heads + "%");
+            System.out.println("Percentage of tails: " + tails + "%");
+
+        }
 
     }
-}
+
